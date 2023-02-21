@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from deepface import DeepFace
 
 # Load the image
-image = cv2.imread('img1_.jpg')
+image = cv2.imread('grp-pic.jpg')
 
 # Load the pre-trained face detection classifier
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
